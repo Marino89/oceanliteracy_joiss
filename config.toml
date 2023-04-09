@@ -1,0 +1,23 @@
+baseurl = "https://example.org/"
+title = "모두를 위한 해양 리터러시"
+author = "유신재"
+paginate = 4
+theme = ["arabica", "hugo-cite"]
+
+[params]
+    description = "우리가 원하는 바다에 필요한 과학"
+    dateFormatToUse = "2006-01-02"
+    replaceGoogleFonts = "fonts.loli.net"
+    twitter = "example"
+    facebook = "example"
+    mathjax = true # Enable MathJax
+    mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+    mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+
+[markup.goldmark.renderer]
+    unsafe= true
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> Tags"
+url = "/tags"
+weight = 30

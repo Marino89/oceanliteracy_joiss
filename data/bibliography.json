@@ -1,0 +1,39 @@
+[
+  {
+    "DOI": "10.3390/rs9121315",
+    "ISSN": "2072-4292",
+    "URL": "https://www.mdpi.com/2072-4292/9/12/1315",
+    "abstract": "Modern advances in cloud computing and machine-leaning algorithms are shifting the manner in which Earth-observation (EO) data are used for environmental monitoring, particularly as we settle into the era of free, open-access satellite data streams. Wetland delineation represents a particularly worthy application of this emerging research trend, since wetlands are an ecologically important yet chronically under-represented component of contemporary mapping and monitoring programs, particularly at the regional and national levels. Exploiting Google Earth Engine and R Statistical software, we developed a workflow for predicting the probability of wetland occurrence using a boosted regression tree machine-learning framework applied to digital topographic and EO data. Working in a 13,700 km2 study area in northern Alberta, our best models produced excellent results, with AUC (area under the receiver-operator characteristic curve) values of 0.898 and explained-deviance values of 0.708. Our results demonstrate the central role of high-quality topographic variables for modeling wetland distribution at regional scales. Including optical and/or radar variables into the workflow substantially improved model performance, though optical data performed slightly better. Converting our wetland probability-of-occurrence model into a binary Wet-Dry classification yielded an overall accuracy of 85",
+    "author": [
+      {
+        "family": "Hird",
+        "given": "Jennifer N."
+      },
+      {
+        "family": "DeLancey",
+        "given": "Evan R."
+      },
+      {
+        "family": "McDermid",
+        "given": "Gregory J."
+      },
+      {
+        "family": "Kariyeva",
+        "given": "Jahan"
+      }
+    ],
+    "container-title": "Remote Sensing",
+    "id": "rs9121315",
+    "issue": "12",
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "title": "Google earth engine, open-access satellite data, and machine learning in support of large-area probabilistic wetland mapping",
+    "type": "article-journal",
+    "volume": "9"
+  }
+]
